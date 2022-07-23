@@ -26,3 +26,5 @@ snarkjs zkey export verificationkey circuit_final.zkey verification_key.json
 snarkjs zkey export solidityverifier circuit_final.zkey ../verifier.sol
 
 cd ../..
+
+node scripts/bump-solidity.js
